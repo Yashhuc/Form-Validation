@@ -5,6 +5,8 @@ let classes = (classes) => document.getElementsByClassName(classes);
 let username = id("username"),
   email = id("email"),
   password = id("password"),
+  contact=id("contact"),
+  age=id("age")
   form = id("form"),
   errorMsg = classes("error"),
   successIcon = classes("success-icon"),
